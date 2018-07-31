@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    background-color: #DAD6CD;
+    color: #393042;
+}
+
+header {
+    text-align: center;
+}
+
+table {
+    width: 90%;
+}
+
+th {
+    height: 35px;
+}
+
+th, td {
+    border-bottom: 1px solid #5A4353;
+    text-align: center;
+    font-size: 120%;
+}
+
+tr:hover {
+    background-color: #B58C8F;
+}
+
+.container {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+#delete-btn, #submit-btn {
+    background-color: #FFFAF0;
+}
+
+#delete-btn:active, #submit-btn:active {
+    background-color: #E3AFB3;
+}
+
+#firstName {
+    margin-left: auto;
+}
+
+#firstName, #lastName, #idNumber, #jobTitle, #annualSalary {
+    background-color: #DAD6CD;
+}
+
+#totalCost {
+    margin-top: 40px;
+    margin-left: 60%;
+    font-size: 120%;
+}
